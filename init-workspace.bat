@@ -1,7 +1,7 @@
 @echo off    
 setlocal enabledelayedexpansion
 
-set projects=filmflowcore filmflowui httprequest
+set projects=film-flow-core film-flow-ui http-request
 
 set baseURL=https://gitlab.com/luizhs331/
 

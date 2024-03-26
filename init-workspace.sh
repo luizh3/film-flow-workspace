@@ -1,6 +1,6 @@
 #!/bin/bash
 
-projects="filmflowcore filmflowui httprequest"
+projects="film-flow-core film-flow-ui http-request"
 baseURL="https://gitlab.com/luizhs331/"
 
 for project in $projects; do
