@@ -1,13 +1,13 @@
 TEMPLATE = subdirs
 
 SUBDIRS = \
-        filmflowui \
-        filmflowcore \
-        httprequest \
+        film-flow-ui \
+        film-flow-core \
+        http-request \
 
-filmflowui.depends = \
-        filmflowcore \
-        httprequest \
+film-flow-ui.depends = \
+        film-flow-core \
+        http-request \
 
-filmflowcore.depends = \
-        httprequest \
+film-flow-core.depends = \
+        http-request \
