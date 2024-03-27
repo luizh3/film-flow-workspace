@@ -11,6 +11,8 @@
 
 ### Projetos
 
+- É Possível encontrar dados sobre todas os APPs no README.MD de cada um.
+
 | Name | Link |
 | ------ | ------ |
 | FilmFlowUI | https://gitlab.com/luizhs331/film-flow-ui |
@@ -39,5 +41,14 @@
 
 ### Rodar projeto
 
+- Com o projeto aberto no QT, vai ser necessário selecionar a opção no menu lateral a esquerda `Projects` após isso selecionar `Build` no Kit de desenvolvimento, e em seguida desabilitar a flag `Shadow build`, isso é necessário pois configuramos manualmente o destino dos nossos arquivos de build, por padrão eles ficaram em `/build`, no diretório do APP.
+
 ![Shadow Build](documentation/shadow-build.PNG)
+
+- Apos isso basta rodar um `clean/run qmake/build` e a aplicação deve compilar corretamente, apois isso so rodar.
+
+![Build](documentation/build.png)
+
+
+
 
