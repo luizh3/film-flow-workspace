@@ -22,11 +22,9 @@
 ### Fluxo de dependência 
 
 ```flow
-start=>start: FilmFlowUI
-core=>operation: FilmFlowCore
-request=>operation: HttpRequest
-
-start->core->request
+  graph TD;
+      FilmFlowUI-->FilmFlowCore;
+      FilmFlowCore-->HttpRequest;
 ```
 
 ### Dependências
