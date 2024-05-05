@@ -19,6 +19,16 @@
 | FilmFlowCore | https://gitlab.com/luizhs331/film-flow-core |
 | HttpRequest | https://gitlab.com/luizhs331/http-request |
 
+### Fluxo de dependência 
+
+```flow
+start=>start: FilmFlowUI
+core=>operation: FilmFlowCore
+request=>operation: HttpRequest
+
+start->core->request
+```
+
 ### Dependências
 
 - Existe uma pasta `share` e dentro dela existem outras duas pastas, `dll` e `lib`, essas pastam servem para guardar dependecias de libs não geradas pelo projeto em si.
