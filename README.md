@@ -21,7 +21,7 @@
 
 ### Fluxo de dependência 
 
-```flow
+```mermaid
   graph TD;
       FilmFlowUI-->FilmFlowCore;
       FilmFlowCore-->HttpRequest;
